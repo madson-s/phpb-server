@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "manuais",
+  "info": {
+    "singularName": "manual",
+    "pluralName": "manuais",
+    "displayName": "Manual"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "descricao": {
+      "type": "string"
+    },
+    "conteudo": {
+      "type": "richtext"
+    }
+  }
+}
