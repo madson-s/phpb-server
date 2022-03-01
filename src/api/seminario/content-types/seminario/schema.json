@@ -13,19 +13,24 @@
   "pluginOptions": {},
   "attributes": {
     "titulo": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "descricao": {
-      "type": "text"
+      "type": "text",
+      "required": true
     },
     "local": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "link": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "data": {
-      "type": "datetime"
+      "type": "datetime",
+      "required": true
     }
   }
 }
